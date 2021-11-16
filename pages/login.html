@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+    <link rel="stylesheet" href="../assets/css/style_login.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+   
+</head>
+<body>
+  <div class="container">
+  <!-- Formulario HTML de de Ingreso al aplicativo-->
+    <form id="formUser" onsubmit="setDataUser(event, this.id)">
+      <div >
+        <input type="hidden" value="0" id="id_user" name="id_user">   
+        <div id= "relleno_usuario">
+          <label for="name_user_txt" class="form-label">User Name</label>
+          <input type="text" class="form-control" id="username"  placeholder="Ingrese Usuario" required>
+        </div>
+          <div >
+          <label for="password_user_txt" class="form-label">Password</label>
+          <input type="text" class="form-control" id="password" placeholder=" Digite Password" required>
+        </div>
+           <button class="btn" type="submit" value="Enviar">Ingresar</button>
+        <div>
+          <label for="create_user_txt" id="crear_usuario_txt"> Si no tienes usuario , clic aquí para registrarte </label>
+        </div>
+      </div>
+      </form>
+    </div>
+
+     
+<script src="../assets/js/functions_user.js"></script>    
+</body>
+</html>

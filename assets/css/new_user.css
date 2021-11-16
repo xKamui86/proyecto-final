@@ -1,0 +1,67 @@
+body{
+background-image: url(../imagenes/wallpaper_nuevo_usuario.jpg);
+  background-size: 100% 100%; 
+  background-attachment: fixed;
+ 
+  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form_register{
+    width: 400px;
+    background-image: radial-gradient(circle at 50% -20.71%, #b2dafc 0, #b8d9fd 6.25%, #bed7fd 12.5%, #c5d5fd 18.75%, #ccd4fc 25%, #d2d2fa 31.25%, #d9d0f8 37.5%, #dfcff5 43.75%, #e5cdf2 50%, #eaccee 56.25%, #efcaea 62.5%, #f4c9e5 68.75%, #f8c8e0 75%, #fbc8db 81.25%, #fdc7d6 87.5%, #ffc7d1 93.75%, #ffc7cc 100%);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    box-shadow: 10px 13px 37px #000 ;
+
+}
+
+.form_register h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+.form-label {
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.form_register .btn {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 20px;
+    background-image: linear-gradient(180deg, #cdc3ff 0, #9d9df2 50%, #7278b7 100%);
+    
+    
+
+    
+    
+
+
+
+}

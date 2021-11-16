@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Formato de estilo de tabla de contenido */
+body{
+	background-image: url(../imagenes/wallpaper_biblioteca_usuarios);
+	font-family: Arial;
+}
+
+#main-container{
+	margin: 150px auto;
+	width: 600px;
+}
+
+table{
+	background-color: white;
+	text-align: center;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+th, td{
+	padding: 15px;
+}
+
+thead{
+	background-color: #246355;
+	border-bottom: solid 5px #0F362D;
+	color: white;
+    
+}
+
+tr:nth-child(even){
+	background-color: #ddd;
+}
+
+tr:hover td{
+	background-color: #369681;
+	color: white;
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+/* Formato de estilo de Footer */
+
+footer{
+    width:100%;
+    background: #202020;
+    color: white;
+}
+
+.container-footer-all{
+    width:100%;
+    max-width: 1200px ;
+    margin: auto;
+    background: ;
+}
+
+.container-body{
+    display:flex;
+    justify-content:center;
+}
+
+.colum1{
+    max-width: 400px;
+}
+
+.colum1 h1{
+    font-size: 22px;
+}
+
+.colum1 p{
+    font-size:14px;
+    color: #C7C7C7 ;
+    margin-top: 20px;
+}
+
+.colum2{
+    max-width: 400px;
+
+}
+
+.colum2 h1{
+    font-size:22px;
+}
+
+.row{
+    margin-top: 20px;
+    display:flex;
+}
+
+.row img{
+    width: 35px;
+    height: 36px;
+
+}
+
+.row label{
+    margin-top: 10px;
+    margin-left: 10px;
+    color: #C7C7C7 ;
+
+}
+
+.colum3{
+    max-width: 400px;
+}
+
+.colum3 h1{
+    font-size: 22px;
+
+}
+
+.row2{
+    margin-top: 20px;
+    display:flex;
+
+}
+
+.row2 img{
+    width: 36px;
+    height: 36px;
+}
+
+.row2 label{
+    margin-left: 20px;
+    max-width: 140px;
+    margin-top: 10px;
+
+
+}
